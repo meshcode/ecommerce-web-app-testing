@@ -11,11 +11,11 @@ To demonstrate planning for tests, testing and reporting defects as a basic skil
 
 ## Method  
 ``` 
-Create a custom test plan of approach. 
-   - own document (see below).
+Create a custom Test Plan for general approach. 
+   - own document (see file and screenshot below).
 
-Create a custom set of requirements for assessment based on user cases.
-   - own document (see below).
+Create a custom Functional Testing Scenarios to test based on user cases.
+   - own document (see file and screenshot below).
 
 Create Testrail test cases.
    - write test cases.
@@ -44,14 +44,20 @@ Create Jira bug reports.
   - [TestRail](https://www.gurock.com/testrail/) - comprehensive test case management
   
 ## Screenshots  
- 
-  ##### Browser window with web app (automationpractice.com:
+
+  ##### Browser window with web app product (automationpractice.com):
   ![Web App](https://i.imgur.com/0b5kgBs.jpg)
   
+   ##### Custom document - Test Plan:
+   ![TestRail](https://i.imgur.com/1oNgXVP.jpg)
+ 
+  ##### Custom document - Functional Testing Scenarios:
+   ![TestRail](https://i.imgur.com/mcMcXvN.jpg)
+        
   ##### Selenium Webdriver (Cucumber / Gherkin) test process within IntelliJ:
   ![Selenium Webdriver](https://i.imgur.com/bf5Bt8s.jpg)
   
-  ##### TestRail - Test Cases:
+   ##### TestRail - Test Cases:
   ![TestRail](https://i.imgur.com/ZUM5il8.jpg)
   
   ##### TestRail - Test Run:
