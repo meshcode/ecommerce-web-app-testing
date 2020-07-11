@@ -14,13 +14,14 @@ public class Hook {
         this.base = base;
     }
 
+    //przed kazdym testem uruchomi sie chromedriver
     @Before
     public void InitializeTest() {
         /*
             W tym miejscu należy podać ścieżkę do pliku *.exe z Chromedriver
             https://chromedriver.storage.googleapis.com/index.html?path=84.0.4147.30/
          */
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "C:\\EARTH\\Webdrivers\\chromedriver.exe");
 
         base.Driver = new ChromeDriver();
         base.Wait = new WebDriverWait(base.Driver, 30);
